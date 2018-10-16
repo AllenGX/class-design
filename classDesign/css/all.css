@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+/* 全局皆可用 */
+
+.body{
+	background: url("../image/timg.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+}
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+
+a{
+list-style:none;
+text-decoration:none;}
+
+.header{
+	z-index:20;
+	height:100px;
+	width:100%;
+	background-color:rgb(61, 68, 80);
+}
+header div{
+margin:30px 20px;
+display:block;
+float:left;
+}
+
+header *{
+color:white;
+font-size:30px;
+font-weight:bold;}
+
+.header{
+	
+	position:fixed;
+}
+
+.none2{
+	width:45%;
+}
+.none1{
+	width:15%;
+}
+
+br{clear:both;}

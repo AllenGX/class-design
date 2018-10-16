@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+
+#FIle{
+display:none;
+}
+
+.files{
+	display:block;
+	border: 2px dashed #EDEDED;
+	margin:20px auto;
+	position:relative;
+	width:520px;
+	height:200px;
+	
+}
+
+.files input{
+	width:520px;
+	height:200px;
+	cursor: pointer;
+	
+}
+.files span{
+	z-index:-1;
+	display:block;
+	position:absolute;
+	top:50%;
+	left:50%;
+	border: 1px solid #D9D9D9;
+	height: 50px;
+    line-height: 50px;
+    width:200px;
+    background: linear-gradient( #FAFAFA, #F2F2F2);
+    margin: -25px 0 0 -100px;
+}
+
+.contt{
+	width:600px;
+	height:300px;
+	background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -150px 0 0 -300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    border-radius: 4px;
+}
+
+.XX{
+position:absolute;
+text-align:center;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    z-index: 99999;
+    margin:-150px 0 0 260px;
+}
+.XX a{
+	width:40px;
+	height:40px;
+	font: normal normal normal 25px/1 FontAwesome;
+	border-radius:4px;
+	background-color: #3d4450;
+	color:#fff;
+	float:right;
+	margin:0px px 0px 20px;
+	text-align:center;
+	line-height:32px;
+}
+.dialog-overlay{
+position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,.3)
+}
+
+.top{
+	padding:10px;
+	text-align:left;
+	border-bottom: 1px solid #EDEDED;
+}
+
+li{
+	list-style:none;
+}

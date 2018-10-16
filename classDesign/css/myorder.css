@@ -1,0 +1,107 @@
+@CHARSET "UTF-8";
+
+.type_order{
+	background: #edf2f9;
+    border-radius: 4px;
+    line-height: 36px;
+    margin: 18px 20px 10px;
+    padding: 0 20px;
+}
+.type_order a{
+	margin:0px 10px;
+}
+
+.body .water{
+	width:1200px;
+}
+
+.water div img{
+margin:2px;
+	height:200px;
+	border-radius: 4px;
+	float:left;
+}
+
+.number{
+	margin:20px;
+	border-radius: 4px;
+	border:1px #edf2f9 solid;
+	
+}
+.information{
+	display:block;
+	height:200px;
+	background: #edf2f9;
+	
+}
+.information div{
+	width:auto;
+	font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	padding:10px;
+}
+.information div a{
+	padding:10px;
+}
+.information .Content{
+	height:100px;
+}
+
+
+
+.ACTIVE a{
+margin:0 10px;
+font-family:
+'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+font-size:
+12px;
+font-weight:
+normal;
+color:
+rgb(170, 170, 170);
+}
+
+/* 按钮 */
+.topfile{
+	background: linear-gradient( #E53E49, #D43636);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.08),0 1px 0 rgba(255,255,255,.3);
+    text-shadow: 0 -1px 0 rgba(0,0,0,.1);
+    color: #fff;
+    border: 1px solid #C90000;
+    border-radius: 2px;
+    font-size: 25px;
+    padding: 0 12px;
+    height:40px;
+    line-height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width:200px;
+}
+
+.topfile:hover{
+	background:#f44444;
+}
+
+.bottom{
+margin:50px auto;
+text-align:center;
+}
+
+
+.myorder{
+height:80px;}
+.water div img{
+	margin:0px;
+}
+.body .water{
+	width:1200px;
+}
+.number a img{
+	max-width:400px;
+}
+
+.type_order a{
+    cursor: pointer;
+}

@@ -1,0 +1,145 @@
+@CHARSET "UTF-8";
+
+.Main{
+	
+	text-align:center;
+	display:table;
+	background:#fff;
+	margin:10px auto;
+	margin-top:150px;
+}
+
+
+.file .inner{
+width:200px;
+margin:0 auto;
+color:
+rgb(119, 119, 119);
+text-align:center;
+border-bottom-color:
+rgb(222, 222, 222);
+border-bottom-style:
+dashed;
+border-bottom-width:
+2px;
+border-image-outset:
+0px;
+border-image-repeat:
+stretch;
+border-image-slice:
+100%;
+border-image-source:
+none;
+border-image-width;1;
+border-left-color:rgb(222, 222, 222);
+border-left-style:
+dashed;
+border-left-width:
+2px;
+border-right-color:
+rgb(222, 222, 222);
+border-right-style:
+dashed;
+border-right-width:
+2px;
+border-top-color:
+rgb(222, 222, 222);
+border-top-style:
+dashed;
+border-top-width:
+2px;
+color:
+rgb(68, 68, 68);
+cursor:
+pointer;
+display:
+block;
+font-family:
+'helvetica neue', arial, sans-serif;
+}
+
+a img{
+width:50px;
+padding:10px;
+}
+
+.inner span{
+margin-bottom:10px;
+cursor:
+pointer;
+display:
+block;
+font-family:
+'helvetica neue', arial, sans-serif;
+font-size:
+14px;
+height:
+16px;
+text-align:
+center;
+
+}
+
+.ACTIVE a{
+margin:0 10px;
+font-family:
+'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+font-size:
+12px;
+font-weight:
+normal;
+color:
+rgb(170, 170, 170);
+}
+
+.ACTIVE {
+	width:700px;
+	
+}
+.Main div{
+	text-align:center;
+	font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	padding:10px;
+}
+.Main div a{
+	padding:10px;
+	text-align:center;
+
+}
+
+.Titles a{
+color:rgb(95, 71, 80);
+font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size:50px;
+font-weight:100;
+margin:30px;
+}
+
+.Titles{
+margin-top:20px;
+    display:block;
+}
+
+.Content{
+margin-top:10px;
+margin-bottom:20px;
+color:rgb(95, 71, 80);
+}
+
+.inpu input{
+	text-decoration: none;
+    color: #444;
+    background: linear-gradient(#FFF, #F7F7F7);
+    box-shadow: inset 0 1px 0 white,0 1px 0 rgba(255,255,255,.05);
+    border: 1px solid #CCC;
+    width:100px;
+    height:40px;
+}
+
+.Money{
+height:30px;
+text-align:center;
+margin:0px auto;
+}

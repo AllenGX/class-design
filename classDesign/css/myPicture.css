@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+.mypicture{
+height:80px;
+}
+.topfile{
+	background: linear-gradient( #E53E49, #D43636);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.08),0 1px 0 rgba(255,255,255,.3);
+    text-shadow: 0 -1px 0 rgba(0,0,0,.1);
+    color: #fff;
+    border: 1px solid #C90000;
+    border-radius: 2px;
+    font-size: 25px;
+    padding: 0 12px;
+    height:40px;
+    line-height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width:200px;
+}
+
+.topfile:hover{
+	background:#f44444;
+}
+
+.bottom{
+margin:50px auto;
+text-align:center;
+}

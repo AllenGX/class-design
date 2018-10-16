@@ -1,0 +1,59 @@
+
+	<!-- 登陆界面 -->
+	<div class="black-overlay" id="black">
+	<div class="X"><a href="#" onclick="f2()">x</a></div>
+		<div class="center" >
+			<div class="content">
+				<form action="IsUserServlet" method="post" name="form" class="form" onsubmit="return fz()">
+					<div class="title">图汇网</div>
+					<hr class="bor"/>
+					<input type="hidden" id="ty" name="ty" value=1/>
+					<div>用户名:<input type="text" name="username" placeholder="用户名..." id="username"></div>
+					<div>密&nbsp;码:<input type="password" name="userpwd" placeholder="密码..." id="userpwd"></div>
+					<div class="sub"><input type="submit" value="登陆" onclick="ty2()">
+					<input type="submit" value="注册" onclick="ty1()"></div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		function usernameIsOk(){
+			var username=document.getElementById("username").value;
+			if(username==""){alert("用户名不能为空!!");return false;
+			}else{
+				if(username.length>15){
+					alert("用户名过长");return false;
+				}
+				else return true;
+			}
+		}
+		
+		
+		
+		function userpwdIsOk(){
+			var userpwd=document.getElementById("userpwd").value;
+		    /* if(userpwd.length<6||userpwd.length>20){
+		    	alert("密码过长或过短");
+		      	return false;
+		    } */
+		    if(/[^a-zA-Z0-9_]/.test(userpwd)){
+		    	alert("密码存在非法字符");
+		     	 return false;
+		    }
+		    /* if(/(^[a-z]+$|^[A-Z]+$|^\d+$|^_+$)/.test(userpwd)){
+		    	alert("密码过于简单");
+		      	return false;
+		    } */
+		    return true;
+		  }
+
+		
+		function fz(){
+			if(usernameIsOk()&&userpwdIsOk()){
+				return true;
+			}else{
+				return false;
+			}
+		}
+	</script>
